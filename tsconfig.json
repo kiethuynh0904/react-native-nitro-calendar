@@ -1,11 +1,16 @@
 {
   "include": [
-    "src"
+    "src",
+    "example"
   ],
   "compilerOptions": {
     "composite": true,
+    "baseUrl": ".",
     "outDir": "lib",
-    "rootDir": "src",
+    "paths": {
+      "@kiethuynh/react-native-nitro-calendar": ["src"]
+    },
+    "rootDir": ".",
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "esModuleInterop": true,
