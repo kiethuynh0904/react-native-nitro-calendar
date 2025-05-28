@@ -16,7 +16,7 @@ import {
 } from 'react-native';
 
 
-import {NitroCalendar} from '@kiethuynh/react-native-nitro-calendar';
+import {MediaViewer} from 'react-native-nitro-media-viewer';
 
 const VIEWS_X = 15;
 const VIEWS_Y = 15;
@@ -67,7 +67,7 @@ function App(): React.JSX.Element {
   const views = React.useMemo(
     () =>
       [...Array(counter)].map((_, i) => (
-        <NitroCalendar
+        <MediaViewer
           key={i}
           hybridRef={{
             f: ref => {

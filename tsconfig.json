@@ -8,7 +8,9 @@
     "baseUrl": ".",
     "outDir": "lib",
     "paths": {
-      "@kiethuynh/react-native-nitro-calendar": ["src"]
+      "react-native-nitro-media-viewer": [
+        "src"
+      ]
     },
     "rootDir": ".",
     "allowUnreachableCode": false,
@@ -16,7 +18,9 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",
-    "lib": ["esnext"],
+    "lib": [
+      "esnext"
+    ],
     "module": "esnext",
     "moduleResolution": "node",
     "noEmit": false,

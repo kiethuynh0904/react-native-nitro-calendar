@@ -12,7 +12,7 @@
 
 #include <functional>
 
-namespace margelo::nitro::nitrocalendar {
+namespace margelo::nitro::mediaviewer {
 
   using namespace facebook;
 
@@ -22,7 +22,7 @@ namespace margelo::nitro::nitrocalendar {
    */
   struct JFunc_void: public jni::JavaClass<JFunc_void> {
   public:
-    static auto constexpr kJavaDescriptor = "Lcom/margelo/nitro/nitrocalendar/Func_void;";
+    static auto constexpr kJavaDescriptor = "Lcom/margelo/nitro/mediaviewer/Func_void;";
 
   public:
     /**
@@ -58,7 +58,7 @@ namespace margelo::nitro::nitrocalendar {
     }
 
   public:
-    static auto constexpr kJavaDescriptor = "Lcom/margelo/nitro/nitrocalendar/Func_void_cxx;";
+    static auto constexpr kJavaDescriptor = "Lcom/margelo/nitro/mediaviewer/Func_void_cxx;";
     static void registerNatives() {
       registerHybrid({makeNativeMethod("invoke_cxx", JFunc_void_cxx::invoke_cxx)});
     }
@@ -71,4 +71,4 @@ namespace margelo::nitro::nitrocalendar {
     std::function<void()> _func;
   };
 
-} // namespace margelo::nitro::nitrocalendar
+} // namespace margelo::nitro::mediaviewer

@@ -1,0 +1,13 @@
+{
+  "uiViewClassName": "MediaViewer",
+  "supportsRawText": false,
+  "bubblingEventTypes": {},
+  "directEventTypes": {},
+  "validAttributes": {
+    "isBlue": true,
+    "hasBeenCalled": true,
+    "colorScheme": true,
+    "someCallback": true,
+    "hybridRef": true
+  }
+}

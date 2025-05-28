@@ -23,7 +23,7 @@
 #error NitroModules cannot be found! Are you sure you installed NitroModules properly?
 #endif
 
-namespace margelo::nitro::nitrocalendar {
+namespace margelo::nitro::mediaviewer {
 
   /**
    * An enum which can be represented as a JavaScript union (ColorScheme).
@@ -33,11 +33,11 @@ namespace margelo::nitro::nitrocalendar {
     DARK      SWIFT_NAME(dark) = 1,
   } CLOSED_ENUM;
 
-} // namespace margelo::nitro::nitrocalendar
+} // namespace margelo::nitro::mediaviewer
 
 namespace margelo::nitro {
 
-  using namespace margelo::nitro::nitrocalendar;
+  using namespace margelo::nitro::mediaviewer;
 
   // C++ ColorScheme <> JS ColorScheme (union)
   template <>

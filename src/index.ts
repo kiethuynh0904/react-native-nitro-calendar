@@ -1,1 +1,1 @@
-export * from './views/NitroCalendar'
+export * from './views/MediaViewer'

@@ -10,7 +10,7 @@
 #include <fbjni/fbjni.h>
 #include "ColorScheme.hpp"
 
-namespace margelo::nitro::nitrocalendar {
+namespace margelo::nitro::mediaviewer {
 
   using namespace facebook;
 
@@ -19,7 +19,7 @@ namespace margelo::nitro::nitrocalendar {
    */
   struct JColorScheme final: public jni::JavaClass<JColorScheme> {
   public:
-    static auto constexpr kJavaDescriptor = "Lcom/margelo/nitro/nitrocalendar/ColorScheme;";
+    static auto constexpr kJavaDescriptor = "Lcom/margelo/nitro/mediaviewer/ColorScheme;";
 
   public:
     /**
@@ -56,4 +56,4 @@ namespace margelo::nitro::nitrocalendar {
     }
   };
 
-} // namespace margelo::nitro::nitrocalendar
+} // namespace margelo::nitro::mediaviewer

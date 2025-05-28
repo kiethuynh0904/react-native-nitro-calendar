@@ -9,7 +9,7 @@ module.exports = {
         extensions: ['.tsx', '.ts', '.js', '.json'],
         alias: {
           // For development, we want to alias the library to the source
-          '@kiethuynh/react-native-nitro-calendar': path.join(
+          'react-native-nitro-media-viewer': path.join(
             __dirname,
             '..',
             'src',
@@ -20,4 +20,3 @@ module.exports = {
     ],
   ],
 };
-
